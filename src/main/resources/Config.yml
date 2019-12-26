@@ -1,0 +1,47 @@
+##########-##########-##########-##########-##########-##########-##########-##########-##########
+###                                          DUtility                                          ###
+### Thank you for downloading and using my DUtility plugin. This plugin was designed to be     ###
+### used by developers to make coding various aspects of their plugins simple and easy. This   ###
+### API is free and open source.                                                               ###
+###                                                                                            ###
+### If you have any issues or requests, please contact me on discord through my dedicated      ###
+### support discord server here: https://discord.gg/Pfn85pA                                    ###
+###                                                                                            ###
+### Please do not change the line below. It is used by the plugin to know when updates are out ###
+##########-##########-##########-##########-##########-##########-##########-##########-##########
+config-ver: 0.0.1
+##########-##########-##########-##########-##########-##########-##########-##########-##########
+###                                         translator                                         ###
+###                                                                                            ###
+### The translation feature of this plugin is powered by Yandex.com - This feature does need a ###
+### FREE API key that is available here: https://translate.yandex.com/developers/keys          ###
+### Please Note: the API key has some terms of use that are outlined at the link below.        ###
+### https://translate.yandex.com/developers/offer                                              ###
+### Please also note: I, DaddyDevmas (developer of this plugin), am not responsible for your   ###
+### use of the Yandex.com API. This API has TOS which I have linked to above. It is YOUR       ###
+### responsibility to known and understand these terms before you use the API. I am not        ###
+### responsible in any way should you break the TOS of the API.                                ###
+###                                                                                            ###
+### This feature does include a toggle setting to enable and disable the use of the translator ###
+##########-##########-##########-##########-##########-##########-##########-##########-##########
+translator:
+  enabled: false
+  api-key: ''
+##########-##########-##########-##########-##########-##########-##########-##########-##########
+###                                           Redis                                            ###
+### Below are the settings for the redis feature of this utility plugin. If the                ###
+### 'use-authentication' is set to false then you DO NOT need to set a password.               ###
+###  If the 'use-pub-sub' setting is set to false, then you DO NOT need to set a list of       ###
+###  channels to subscribe to                                                                  ###
+##########-##########-##########-##########-##########-##########-##########-##########-##########
+redis:
+  use-authentication: true
+  use-pub-sub: true
+  host: ''
+  port: ''
+  password: ''
+  channels:
+  - ''
+##########-##########-##########-##########-##########-##########-##########-##########-##########
+###                                                                                            ###
+##########-##########-##########-##########-##########-##########-##########-##########-##########
