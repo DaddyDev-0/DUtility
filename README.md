@@ -1,5 +1,5 @@
 # DUtility v0.0.1
- Download: [SpigotMC](spigotmc.org/resources/dutility.73788/) | [MC-Market](https://www.mc-market.org/resources/13281/) | [Minemen](https://minemen.com/resources/dutility.36/)  
+ Download: [SpigotMC](https://spigotmc.org/resources/dutility.73788/) | [MC-Market](https://www.mc-market.org/resources/13281/) | [Minemen](https://minemen.com/resources/dutility.36/)  
  Links: [Support Discord](https://discord.gg/Pfn85pA) | [Developed by DaddyDevmas](https://discord.gg/Pfn85pA)
  
  DUtility is a simplistic developer API that has been designed and developed to help Spigot plugin developers 
