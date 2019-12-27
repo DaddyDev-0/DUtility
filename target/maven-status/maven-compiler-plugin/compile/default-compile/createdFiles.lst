@@ -1,8 +1,8 @@
-daddy\devmas\dutility\DUtility.class
-daddy\devmas\dutility\messages\MessageCentre.class
-daddy\devmas\dutility\builder\StaticBookBuilder.class
-daddy\devmas\dutility\messages\MessageUtil.class
-daddy\devmas\dutility\messages\Translator.class
-daddy\devmas\dutility\files\Files.class
-daddy\devmas\dutility\builder\ItemBuilder.class
-daddy\devmas\dutility\builder\InventoryBuilder.class
+daddy/devmas/dutility/messages/MessageCentre.class
+daddy/devmas/dutility/messages/Translator.class
+daddy/devmas/dutility/files/Files.class
+daddy/devmas/dutility/DUtility.class
+daddy/devmas/dutility/builder/InventoryBuilder.class
+daddy/devmas/dutility/builder/StaticBookBuilder.class
+daddy/devmas/dutility/messages/MessageUtil.class
+daddy/devmas/dutility/builder/ItemBuilder.class
