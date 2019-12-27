@@ -2,6 +2,7 @@ package daddy.devmas.dutility;
 
 import daddy.devmas.dutility.files.Files;
 import daddy.devmas.dutility.messages.MessageUtil;
+import daddy.devmas.dutility.messages.Translator;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class DUtility extends JavaPlugin {
@@ -19,6 +20,7 @@ public final class DUtility extends JavaPlugin {
         //- Files
         files = new Files(this);
         messageUtil = new MessageUtil(this);
+        translator = new Translator(this);
     }
 
     @Override
@@ -26,6 +28,7 @@ public final class DUtility extends JavaPlugin {
 
         files = null;
         messageUtil = null;
+        translator = null;
 
         //Plugin Instance
         dUtility = null;
@@ -42,5 +45,9 @@ public final class DUtility extends JavaPlugin {
     public MessageUtil getMessageUtil() {
         return messageUtil;
     }
+
+    //- Translator
+    private Translator translator;
+    public Translator getTranslator() { return translator; }
 
 }

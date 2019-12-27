@@ -1,0 +1,7 @@
+name: DUtility
+version: 0.0.1
+main: daddy.devmas.dutility.DUtility
+api-version: 1.13
+authors: [DaddyDevmas]
+description: A simple open source Spigot Utility Plugin for developers
+website: insomnia.digital

@@ -5,8 +5,11 @@ import daddy.devmas.dutility.DUtility;
 public class MessageUtil {
 
     private DUtility dUtility;
+
+
     public MessageUtil(DUtility dUtility) {
         this.dUtility = dUtility;
+
     }
 
     public String centerChat(String msg) {
@@ -52,4 +55,6 @@ public class MessageUtil {
                 (minutes > 0 ? minutes + (minutes > 1 ? "m, " : "m, ") : "") +
                 (seconds > 1 ? seconds + "s." : seconds + "s.");
     }
+
+
 }
