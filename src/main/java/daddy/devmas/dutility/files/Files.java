@@ -10,7 +10,6 @@ public class Files {
 
     //- Folders
     private File dataFolder;
-    private File userFolder;
 
     //- Files
     private File configF;
@@ -22,9 +21,6 @@ public class Files {
         dataFolder = du.getDataFolder();
         if(!dataFolder.exists()) dataFolder.mkdirs();
 
-        userFolder = new File(dataFolder + File.separator + "Player");
-        if(!userFolder.exists())  userFolder.mkdirs();
-
         //- Files
         configF = new File(dataFolder, "Config.yml");
         if(!configF.exists()) du.saveResource("Config.yml", false);
@@ -35,10 +31,6 @@ public class Files {
         return dataFolder;
     }
 
-    public File getUserFolder() {
-        return userFolder;
-    }
-    
     public File getConfigF() {
         return configF;
     }

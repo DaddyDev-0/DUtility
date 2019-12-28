@@ -1,5 +1,6 @@
 package daddy.devmas.dutility;
 
+import daddy.devmas.dutility.events.ListenManager;
 import daddy.devmas.dutility.files.Files;
 import daddy.devmas.dutility.messages.MessageUtil;
 import daddy.devmas.dutility.messages.Translator;
@@ -21,6 +22,7 @@ public final class DUtility extends JavaPlugin {
         files = new Files(this);
         messageUtil = new MessageUtil(this);
         translator = new Translator(this);
+        listenManager = new ListenManager(this);
     }
 
     @Override
@@ -29,6 +31,7 @@ public final class DUtility extends JavaPlugin {
         files = null;
         messageUtil = null;
         translator = null;
+        listenManager = null;
 
         //Plugin Instance
         dUtility = null;
@@ -50,4 +53,9 @@ public final class DUtility extends JavaPlugin {
     private Translator translator;
     public Translator getTranslator() { return translator; }
 
+    //- Events
+    private ListenManager listenManager;
+    public ListenManager getListenManager() {
+        return listenManager;
+    }
 }

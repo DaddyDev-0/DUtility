@@ -27,6 +27,7 @@ config-ver: 0.0.1
 translator:
   enable: false
   api-key: ''
+  default-lang: 'EN'
 ##########-##########-##########-##########-##########-##########-##########-##########-##########
 ###                                           Redis                                            ###
 ### Below are the settings for the redis feature of this utility plugin. If the                ###
