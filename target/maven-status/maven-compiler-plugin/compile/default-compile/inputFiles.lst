@@ -1,10 +1,13 @@
 D:\IntelliJ\DaddyDevmnas\DUtility\src\main\java\daddy\devmas\dutility\DUtility.java
-D:\IntelliJ\DaddyDevmnas\DUtility\src\main\java\daddy\devmas\dutility\events\chat\ChatListen.java
 D:\IntelliJ\DaddyDevmnas\DUtility\src\main\java\daddy\devmas\dutility\messages\Translator.java
+D:\IntelliJ\DaddyDevmnas\DUtility\src\main\java\daddy\devmas\dutility\users\UserManager.java
+D:\IntelliJ\DaddyDevmnas\DUtility\src\main\java\daddy\devmas\dutility\builder\InventoryBuilder.java
+D:\IntelliJ\DaddyDevmnas\DUtility\src\main\java\daddy\devmas\dutility\messages\MessageCentre.java
+D:\IntelliJ\DaddyDevmnas\DUtility\src\main\java\daddy\devmas\dutility\users\User.java
+D:\IntelliJ\DaddyDevmnas\DUtility\src\main\java\daddy\devmas\dutility\builder\ItemBuilder.java
+D:\IntelliJ\DaddyDevmnas\DUtility\src\main\java\daddy\devmas\dutility\events\chat\ChatListen.java
 D:\IntelliJ\DaddyDevmnas\DUtility\src\main\java\daddy\devmas\dutility\builder\StaticBookBuilder.java
 D:\IntelliJ\DaddyDevmnas\DUtility\src\main\java\daddy\devmas\dutility\files\Files.java
 D:\IntelliJ\DaddyDevmnas\DUtility\src\main\java\daddy\devmas\dutility\events\ListenManager.java
 D:\IntelliJ\DaddyDevmnas\DUtility\src\main\java\daddy\devmas\dutility\messages\MessageUtil.java
-D:\IntelliJ\DaddyDevmnas\DUtility\src\main\java\daddy\devmas\dutility\builder\InventoryBuilder.java
-D:\IntelliJ\DaddyDevmnas\DUtility\src\main\java\daddy\devmas\dutility\messages\MessageCentre.java
-D:\IntelliJ\DaddyDevmnas\DUtility\src\main\java\daddy\devmas\dutility\builder\ItemBuilder.java
+D:\IntelliJ\DaddyDevmnas\DUtility\src\main\java\daddy\devmas\dutility\events\user\UserJoin.java

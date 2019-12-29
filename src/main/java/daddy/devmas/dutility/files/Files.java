@@ -10,6 +10,7 @@ public class Files {
 
     //- Folders
     private File dataFolder;
+    private File userFolder;
 
     //- Files
     private File configF;
@@ -20,6 +21,9 @@ public class Files {
         //- Folders
         dataFolder = du.getDataFolder();
         if(!dataFolder.exists()) dataFolder.mkdirs();
+
+        userFolder = new File(dataFolder + File.separator + "User");
+        if(!userFolder.exists()) userFolder.mkdirs();
 
         //- Files
         configF = new File(dataFolder, "Config.yml");
@@ -51,5 +55,9 @@ public class Files {
 
     public void reloadConfig() {
         config = YamlConfiguration.loadConfiguration(configF);
+    }
+
+    public File getUserFolder() {
+        return userFolder;
     }
 }

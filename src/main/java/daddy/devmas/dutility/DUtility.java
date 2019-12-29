@@ -4,6 +4,7 @@ import daddy.devmas.dutility.events.ListenManager;
 import daddy.devmas.dutility.files.Files;
 import daddy.devmas.dutility.messages.MessageUtil;
 import daddy.devmas.dutility.messages.Translator;
+import daddy.devmas.dutility.users.UserManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class DUtility extends JavaPlugin {
@@ -23,11 +24,13 @@ public final class DUtility extends JavaPlugin {
         messageUtil = new MessageUtil(this);
         translator = new Translator(this);
         listenManager = new ListenManager(this);
+        userManager = new UserManager(this);
     }
 
     @Override
     public void onDisable() {
 
+        userManager = null;
         files = null;
         messageUtil = null;
         translator = null;
@@ -58,4 +61,8 @@ public final class DUtility extends JavaPlugin {
     public ListenManager getListenManager() {
         return listenManager;
     }
+
+    //- Users
+    private UserManager userManager;
+    public UserManager getUserManager() { return userManager; }
 }
