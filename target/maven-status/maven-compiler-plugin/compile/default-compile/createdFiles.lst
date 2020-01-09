@@ -1,4 +1,5 @@
 daddy\devmas\dutility\DUtility.class
+daddy\devmas\dutility\experience\ExperienceManager.class
 daddy\devmas\dutility\users\User.class
 daddy\devmas\dutility\events\ListenManager.class
 daddy\devmas\dutility\events\chat\ChatListen.class

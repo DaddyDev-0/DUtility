@@ -1,6 +1,7 @@
 package daddy.devmas.dutility;
 
 import daddy.devmas.dutility.events.ListenManager;
+import daddy.devmas.dutility.experience.ExperienceManager;
 import daddy.devmas.dutility.files.Files;
 import daddy.devmas.dutility.messages.MessageUtil;
 import daddy.devmas.dutility.messages.Translator;
@@ -25,6 +26,7 @@ public final class DUtility extends JavaPlugin {
         translator = new Translator(this);
         listenManager = new ListenManager(this);
         userManager = new UserManager(this);
+        experienceManager = new ExperienceManager(this);
     }
 
     @Override
@@ -35,6 +37,7 @@ public final class DUtility extends JavaPlugin {
         messageUtil = null;
         translator = null;
         listenManager = null;
+        experienceManager = null;
 
         //Plugin Instance
         dUtility = null;
@@ -65,4 +68,8 @@ public final class DUtility extends JavaPlugin {
     //- Users
     private UserManager userManager;
     public UserManager getUserManager() { return userManager; }
+
+    //- Experience
+    private ExperienceManager experienceManager;
+    public ExperienceManager getExperienceManager() { return experienceManager; }
 }

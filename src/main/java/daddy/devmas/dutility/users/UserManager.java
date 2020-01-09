@@ -2,7 +2,6 @@ package daddy.devmas.dutility.users;
 
 import com.github.vbauer.yta.model.Language;
 import daddy.devmas.dutility.DUtility;
-import org.bukkit.OfflinePlayer;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
 
